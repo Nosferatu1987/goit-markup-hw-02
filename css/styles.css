@@ -1,5 +1,24 @@
 :root {
-    --main-h3-portfolio-text-size: 18;
-    --main-p-portfolio-text-size: 16;
-    
+  --main-font-color-1: #2f303a, 100 %;
+}
+
+body {
+  background-color: #860909;
+}
+
+/* Класс скрывающий элементы */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+p {
+  text-color: green;
+  background-color: blue;
 }
