@@ -1,10 +1,27 @@
 :root {
-  --main-font-color-1: #2f303a, 100 %;
+  --bg-color-gray: #2f303a;
+  --bg-color-white: #ffffff;
 }
 
 body {
-  background-color: #860909;
+  background-color: #e5e5e5;
 }
+
+.center {
+  text-align: center;
+}
+
+.three li {
+  display: inline-block; /* Отображать как строчный элемент */
+}
+ 
+   .line {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+    margin-right: 5px; /* Отступ слева */
+    /* border: 1px solid #000; Рамка вокруг текста
+    padding: 3px; Поля вокруг текста */
 
 /* Класс скрывающий элементы */
 .visually-hidden {
@@ -16,9 +33,4 @@ body {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-}
-
-p {
-  text-color: green;
-  background-color: blue;
 }
