@@ -99,13 +99,17 @@ letter-spacing: 0.02em;
 color: var(--main-text-color-black);
 }
 
+/* Цвет футера */
+.fppter-text-color {
+  color: var(--main-text-color-white);
+}
 /* оформление адреса нижнего меню */
 .down-menue-address-style {
 /*font-weight: 400;*/
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
-color: var(--main-text-color-white);
+
   }
 
 /* оформление нижнего меню телефона и имэйла*/
@@ -222,7 +226,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
-color: var(--main-text-color-master-black);
+/* color: var(--main-text-color-master-black); */
 }
 
 /* Стиль кнопок на странице портфолио */
