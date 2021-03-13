@@ -169,6 +169,14 @@ color: var(--main-text-color-white);
   color: var(--main-text-color-black);
 }
 
+.p-style {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-gray);
+}
+
+
 /* Стиль для простого текста главной страницы */
 .p-style {
   /*font-weight: 400;*/
