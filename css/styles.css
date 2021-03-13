@@ -20,17 +20,18 @@
   --main-text-color-master-black: #000000;
   --main-text-color-blue: #2196F3;
   --main-text-color-white: #FFFFFF;
-  --bg-color-gray: #2f303a;   
-  --bg-color-black: #000000;     
-  --bg-color-white: #ffffff;
-  --accent-color: #2196F3;
+  --bg-color-gray: #2f303a;
 }
 /* font-family: 'Roboto', sans-serif; */
 
 /* Цвет фона main */
 .main-bg {
-  background-color: #E5E5E5
+  background-color: #E5E5E5;
 }
+
+/* a.current {
+  color: var(--main-text-color-blue);
+} */
 
 /* Применение классов */
 
@@ -49,7 +50,8 @@ body {
   background-color: #e5e5e5;
 }
 
-.logo-link {
+.logo-link
+{
   text-decoration: none; /* убирает подчеркивание с ссылки */
   color: inherit; /* обесцвечивает ссылку */
 }
@@ -57,7 +59,7 @@ body {
 /* обесцвечивание и скрытия подч]ркивания для ссылки */
 .link {
   text-decoration: none; /* убирает подчеркивание с ссылки */
-  color: inherit; /* обесцвечивает ссылку */
+  color: inherit; /*обесцвечивает ссылку*/
 }
 
 /* изменение ссылки при наведении */
@@ -108,9 +110,11 @@ color: var(--main-text-color-black);
 .fppter-text-color {
   color: var(--main-text-color-white);
 }
+
 /* оформление адреса нижнего меню */
 .down-menue-address-style {
 /*font-weight: 400;*/
+font-style: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
@@ -204,6 +208,7 @@ color: var(--main-text-color-gray);
 
 /* Стиль кнопки на главной странице */
 .button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -217,7 +222,7 @@ color: var(--main-text-color-gray);
 /* изменение цвета кнопки при наведении */
 .button:hover,
 :focus {
-  background-color: var(--accent-color); /*изменение цвета кнопни*/
+  background-color: var(--main-text-color-blue); /*изменение цвета кнопни*/
   color: var(--main-text-color-white); /*изменение цвета надписи*/
   cursor: pointer;
 }
@@ -246,7 +251,7 @@ color: var(--main-text-color-black);
 
 .portfolio-buttom:hover,
 :focus {
-  background-color: var(--accent-color); /*изменение цвета кнопни*/
+  background-color: var(--main-text-color-blue); /*изменение цвета кнопни*/
   color: var(--main-text-color-white);  /*изменение цвета надписи*/
   cursor: pointer;
 }
@@ -263,6 +268,9 @@ color: var(--main-text-color-black);
   overflow: hidden;
 }
 
+.current {
+  color: var(--main-text-color-blue);
+}
 
 /* raleway-regular - latin_cyrillic-ext_cyrillic */
 /*@font-face {
