@@ -169,7 +169,7 @@ color: var(--main-text-color-white);
   color: var(--main-text-color-black);
 }
 
-.p-style {
+.p-style-up {
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
