@@ -219,6 +219,10 @@ color: var(--main-text-color-gray);
   color: var(--main-text-color-white);
 }
 
+.button-index {
+  background-color: var(--main-text-color-blue);
+}
+
 /* изменение цвета кнопки при наведении */
 .button:hover,
 :focus {
