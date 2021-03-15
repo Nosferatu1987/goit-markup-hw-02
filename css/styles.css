@@ -1,7 +1,7 @@
 /* предварительные стили */
 /* Шрифт Raleway */
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
   src: url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic/raleway-v19-latin_cyrillic-ext_cyrillic-700.eot'); /* IE9 Compat Modes */
@@ -21,13 +21,76 @@
   --main-text-color-blue: #2196F3;
   --main-text-color-white: #FFFFFF;
   --bg-color-gray: #2f303a;
+  --border-color: #EEEEEE;
+  --bg-color-team: #F5F4FA;
 }
 /* font-family: 'Roboto', sans-serif; */
 
 /* Цвет фона main */
 .main-bg {
-  background-color: #E5E5E5;
+  background-color: var(--main-text-color-white);
 }
+
+.bg-color-header {
+  /* position: absolute; */
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  
+  background: var(--main-text-color-white);
+}
+
+.bg-color-up {
+/* position: absolute; */
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: var(--main-text-color-gray);
+}
+
+.bg-color-team {
+  /* position: absolute; */
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  background: var(--bg-color-team);
+}
+
+.bg-color-footer {
+  /* position: absolute; */
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  background: var(--bg-color-gray);
+}
+
+.bg-color-portfolio-block {
+  /* position: absolute; */
+width: 370px;
+height: 404px;
+left: 1015px;
+top: 262px;
+background: var(--main-text-color-white);
+border: 1px solid var(--border-color);
+box-sizing: border-box;
+}
+
+.block-style-index {
+  /* position: absolute; */
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+  background: var(--main-text-color-white);
+  /* material shadow v1 */  
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 
 /* a.current {
   color: var(--main-text-color-blue);
@@ -47,7 +110,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em; /* расстояние между буквами*/
   color: var(--main-text-color-black);
-  background-color: #e5e5e5;
+  /*background-color: #e5e5e5;*/
 }
 
 .logo-link
@@ -131,7 +194,7 @@ color: rgba(255, 255, 255, 0.6);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
+/* text-align: center; */
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--main-text-color-white);
@@ -144,7 +207,7 @@ color: var(--main-text-color-white);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--main-text-color-master-black);
 }
@@ -154,7 +217,7 @@ color: var(--main-text-color-white);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--main-text-color-master-black);
 }
@@ -191,7 +254,7 @@ color: var(--main-text-color-white);
   /*font-weight: 400;*/
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;  
   color: var(--main-text-color-gray);
 }
@@ -243,7 +306,7 @@ color: var(--main-text-color-gray);
 /* Стиль логотипа (цвет, шрифт и т.д.) */
 .logo-style {  
 font-family: Raleway;
-font-style: normal;
+/* font-style: normal; */
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
