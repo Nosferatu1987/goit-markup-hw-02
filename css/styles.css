@@ -102,6 +102,14 @@ display: inline-flex;
         padding: 3px; Поля вокруг текста */
     }
 
+.up-phone-email-style {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-text-color-gray);
+}
+
 /* оформление верхнего меню */
 .up-menue-style {
 font-weight: 500;
