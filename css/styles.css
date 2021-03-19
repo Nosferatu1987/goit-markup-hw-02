@@ -269,17 +269,34 @@ letter-spacing: 0.03em;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
-text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-text-color-black);
+background-color: var(--main-text-color-white);
+cursor: pointer;
 }
 
-.portfolio-buttom:hover,
-:focus {
+
+.portfolio-buttom.link:hover,
+.portfolio-buttom.link:focus {
   background-color: var(--main-text-color-blue); /*изменение цвета кнопни*/
   color: var(--main-text-color-white);  /*изменение цвета надписи*/
-  cursor: pointer;
+  /* cursor: pointer; */
 }
+
+.portfolio-buttom.primary {
+  background-color: var(--main-text-color-blue);
+  color: var(--main-text-color-white);
+  border-color: var(--main-text-color-blue);
+}
+
+.portfolio-buttom.secondary {
+  background-color: var(--main-text-color-white);
+  color: var(--main-text-color-black);
+  border-color: var(--main-text-color-white);
+}
+
+
+
 
 /* Класс скрывающий элементы */
 .visually-hidden {
@@ -308,7 +325,7 @@ color: var(--main-text-color-black);
 .bg-color-header {
   /* position: absolute; */
   width: 1600px;
-  height: 80px;
+  /* height: 80px; */
   left: 0px;
   top: 0px;
   
@@ -318,7 +335,7 @@ color: var(--main-text-color-black);
 .bg-color-up {
 /* position: absolute; */
 width: 1600px;
-height: 600px;
+/* height: 600px; */
 left: 0px;
 top: 80px;
 background: var(--main-text-color-gray);
@@ -327,7 +344,7 @@ background: var(--main-text-color-gray);
 .bg-color-team {
   /* position: absolute; */
   width: 1600px;
-  height: 648px;
+  /* height: 648px; */
   left: 0px;
   top: 1449px;
   background: var(--bg-color-team);
@@ -336,7 +353,7 @@ background: var(--main-text-color-gray);
 .bg-color-footer {
   /* position: absolute; */
   width: 1600px;
-  height: 252px;
+  /* height: 252px; */
   left: 0px;
   top: 1628px;
   background: var(--bg-color-gray);
@@ -345,7 +362,7 @@ background: var(--main-text-color-gray);
 .bg-color-portfolio-block {
   /* position: absolute; */
 width: 370px;
-height: 404px;
+/* height: 404px; */
 left: 1015px;
 top: 262px;
 background: var(--main-text-color-white);
@@ -356,7 +373,7 @@ box-sizing: border-box;
 .block-style-index {
   /* position: absolute; */
   width: 270px;
-  height: 368px;
+  /* height: 368px; */
   left: 215px;
   top: 1635px;
   background: var(--main-text-color-white);
